@@ -150,7 +150,7 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	padding-right: 40px;
 	margin: px;
 	text-align: center;
@@ -188,7 +188,7 @@ hr {
 
 }
 header .intro-text {
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-bottom: 400px;
 }
 #header p {
@@ -197,7 +197,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 180px 0;
+	padding: 150px 0;
 }
 #about .about-text {
 	margin-left: 10px;
