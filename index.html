@@ -37,7 +37,7 @@
     <div class="container">
       <div class="row">
         <div class="intro-text">
-
+<!-- About Image -->
           <img src="img/logo.png" width="900px" height="150px">
 
           <p><b>3D Generalist • Game Developer • Audio Programmer</b></p>
@@ -54,19 +54,22 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+
+<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about"><b>About</b></a> </li>
           <li> <a class="page-scroll" href="#portfolio"><b>Portfolio</b></a> </li>
-          <li> <a class="page-scroll" href="#contact"><b>Social</b></a> </li>
+          <li> <a class="page-scroll" href="#contact"><b>Contact</b></a></li>
+          <li> <a class="page-scroll" href="social"><b>Social</b></a></li>
         </ul>
       </div>
     </div>
   </nav>
 </div>
+
 <!-- About Section -->
 <div id="about">
   <div class="container">
@@ -100,8 +103,11 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".3D">3D Art</a></li>
-            <li><a href="#" data-filter=".GameDev">Game Dev</a></li>
+            <li><a href="#" data-filter=".3DArt">3D Art</a></li>
+            <li><a href="#" data-filter=".GameDevelopment">Game Development</a></li>
+            <li><a href="#" data-filter=".GameDesign">Game Design</a></li>
+            <li><a href="#" data-filter=".UI/UX">UI/UX</a></li>
+<!-- Reclass the data-filter system -->
           </ol>
         </li>
       </ul>
@@ -109,7 +115,7 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Post-Calamity Adobe" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -118,7 +124,7 @@
               <img src="img/portfolio/01-small.png" class="img-responsive" alt="Post-Calamity Adobe"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/02-large.gif" title="violet-neon.itch.io/triptych" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -127,7 +133,7 @@
               <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Tarot Triptych"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Low-Poly Winery" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -136,7 +142,7 @@
               <img src="img/portfolio/03-small.png" class="img-responsive" alt="Low-Poly Winery"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="3D Background" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -145,7 +151,7 @@
               <img src="img/portfolio/04-small.png" class="img-responsive" alt="3D Background"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="violet-neon.itch.io/lofiresearch" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -154,7 +160,7 @@
               <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Lo-fi Enviroment"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/06-large.png" title="violet-neon.itch.io/project-acolyte" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -163,7 +169,7 @@
               <img src="img/portfolio/06-small.png" class="img-responsive" alt="Acolyte"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/07-large.gif" title="Tape Recorder" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -172,7 +178,7 @@
               <img src="img/portfolio/07-small.gif" class="img-responsive" alt="Tape Recorder"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/08-large.gif" title="Low-Poly Sextant" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -181,7 +187,7 @@
               <img src="img/portfolio/08-small.gif" class="img-responsive" alt="Low-Poly Sextant"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="violet-neon.itch.io/wisp" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -190,7 +196,7 @@
               <img src="img/portfolio/09-small.jpg" class="img-responsive" alt=":Cider."> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/10-large.gif" title="violet-neon.itch.io/cider" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -199,7 +205,7 @@
               <img src="img/portfolio/10-small.gif" class="img-responsive" alt=":Cider."> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/11-large.gif" title="Low Poly Wizard" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -208,7 +214,7 @@
               <img src="img/portfolio/11-small.gif" class="img-responsive" alt="Low Poly Wizard"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Board Game Piece" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -217,7 +223,7 @@
               <img src="img/portfolio/12-small.png" class="img-responsive" alt="Board Game Piece"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 GameDev">
+        <div class="col-sm-6 col-md-3 col-lg-3 GameDevelopment">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/13-large.jpg" title="Low Poly Props" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -226,7 +232,7 @@
               <img src="img/portfolio/13-small.jpg" class="img-responsive" alt="Low Poly Props"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 3D">
+        <div class="col-sm-6 col-md-3 col-lg-3 3DArt">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/14-large.png" title="Water Shack" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -249,6 +255,7 @@
       <ul>
       <p> <b>Local:</b> Wellington • <b>Phone:</b> 027 922 3529 • <b>Email:</b> liam.pckd@gmail.com </p>
       </ul>
+<!-- Social Media favicon links -->
       <div class="social">
         <ul>
           <li><a href="https://violet-neon.itch.io/"><i class="fab fa-itch-io"></i></a></li>
@@ -259,6 +266,7 @@
         </ul>
       </div>
     </div>
+<!-- Location Map -->
     <div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=24%king%sreet%wellington&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       <a href="https://www.pureblack.de">webseite erstellen lassen</a></div>
       <style>.mapouter{text-align:right;height:400px;width:1200px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1200px;}</style>
@@ -273,6 +281,7 @@
     </div>
   </div>
 </div>
+<!-- Javascript Bootstrap Links -->
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
