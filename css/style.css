@@ -23,13 +23,13 @@ h3, h4 {
 }
 h5 {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 20px;
 }
 p.intro {
 	font-size: 28px;
 	margin: 12px 0 0;
-	padding-top: 60px;
+
 
 	line-height: 24px;
 }
@@ -151,7 +151,7 @@ hr {
 	display: table;
 	width: 100%;
 	padding-bottom: 0px;
-	padding-right: 40px;
+	padding-right: 0px;
 	margin: px;
 	text-align: center;
 	color: #333;
@@ -177,22 +177,27 @@ hr {
 	color: #333;
 }
 .intro img{
-	padding-top: 40px;
+Image:url(../img/logo.png) center;
+padding-top: 50px;
 
 }
 .intro p {
 	font-size: 24px;
 	margin-bottom: 40px;
-	margin-top: 20px;
+	margin-top: 40px;
+
 
 
 }
 header .intro-text {
-	padding-top: 120px;
+	padding-top: 100px;
 	padding-bottom: 400px;
 }
 #header p {
 	font-size: 20px;
+
+}
+#header .intro-text img {
 
 }
 /* About Section */
